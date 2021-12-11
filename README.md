@@ -31,3 +31,8 @@ bining으로 feature를 늘려도 성능에는 변화가 없음, 오히려 줄�
 -> 일단 연도별마다 feature의 종류, 개수가 다르니 하나씩 조정해보는 방향으로 진행
 
 
+### 1210
+label 확인결과 데이터가 imbalnced하지 않음 sampling 사용 X
+optuna 사용하여 rf, xgb의 parameter 조정, 성능 확인  
+성능의 변화가 없을경우 feature 조정하는 방향으로    
+! : regression 문제로 진행하는 방향도 생각 
