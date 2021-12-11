@@ -2,7 +2,7 @@
 
 Tabular data  
 
-###1208 
+### 1208 
 
 rf,xgb,LogisticRegression,lgbm,decTree,SVC 성능 확인  (Non Parameter)
 -> rf가 가장 좋음, xgb,lgbm같은 boosting의 경우 parameter 조정시 rf보다 더 좋은 성능이 나올수 있음
