@@ -38,6 +38,9 @@ optuna 사용하여 rf, xgb의 parameter 조정, 성능 확인
 ! : regression 문제로 진행하는 방향도 생각 
 
 ### 1211 ~~ 1226
+각 데이터에 셀이 밀린경우 모두 삭제함  
+개수가 적어 정보 유실의 우려는 적다고 판단됨  
+
 
 1. 성능 검증결과 (rf,xgb,lgbm,svc,knn)중 lgbm의 성능이 가장 뛰어남 (parameter tuning) lgbm결과 Acc 0.57 수준    
 2. 성능 개선 위해 방법 모색 -> target encoder(catboost encoder) 사용, 별다른 변화 없음  
