@@ -55,4 +55,8 @@ optuna 사용하여 rf, xgb의 parameter 조정, 성능 확인
 11. -> 명사마다 idx변환, 전체 명사의 표준편차를 feature로 생성, text 데이터들은 삭제함   
 12. -> 표준편차의 이유는 없음  
 13. other method : 명사들을 나눠주어 임베딩, kmeans 또는 dbscan등으로 clustering하여 feature 사용 예정  
-14. 
+
+
+### ~ 01/14  
+아무리 해도 로컬 내에서의 정확도 : 0.61와, 업로드 내 정확도가 확연히 다름  
+이부분은 확실하게 짚고 넘어가야 할듯  
